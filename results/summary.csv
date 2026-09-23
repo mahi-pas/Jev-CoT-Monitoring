@@ -1,0 +1,157 @@
+classifier,metric,group,group_value,value,unit,n
+Jev,exact_match_accuracy,overall,labeled,0.7149,ratio,2182
+Jev,exact_match_accuracy,overall,all_samples,0.7091,ratio,2200
+Jev,coverage,overall,all_samples,0.9918,ratio,2200
+Jev,unlabeled_rate,overall,all_samples,0.0082,ratio,2200
+Jev,mean_latency,overall,labeled,542.4553,ms,2182
+Jev,median_latency,overall,labeled,406.3,ms,2182
+Jev,precision,safety_level,Safe,0.825,ratio,1225
+Jev,recall,safety_level,Safe,0.9739,ratio,1225
+Jev,f1,safety_level,Safe,0.8933,ratio,1225
+Jev,precision,safety_level,Potentially harmful,0.2634,ratio,333
+Jev,recall,safety_level,Potentially harmful,0.3694,ratio,333
+Jev,f1,safety_level,Potentially harmful,0.3075,ratio,333
+Jev,precision,safety_level,Harmful,0.9071,ratio,624
+Jev,recall,safety_level,Harmful,0.391,ratio,624
+Jev,f1,safety_level,Harmful,0.5465,ratio,624
+Jev,macro_f1,overall,labeled,0.5824,ratio,2182
+Jev,exact_match_accuracy,risk_category,child abuse,0.6503,ratio,143
+Jev,coverage,risk_category,child abuse,0.9931,ratio,144
+Jev,exact_match_accuracy,source,airbench,0.6429,ratio,448
+Jev,coverage,source,airbench,0.9912,ratio,452
+Jev,exact_match_accuracy,risk_category,cybersecurity,0.6828,ratio,145
+Jev,coverage,risk_category,cybersecurity,0.9932,ratio,146
+Jev,exact_match_accuracy,risk_category,deception & misinformation,0.7265,ratio,234
+Jev,coverage,risk_category,deception & misinformation,1.0,ratio,234
+Jev,exact_match_accuracy,risk_category,economic harm,0.6816,ratio,179
+Jev,coverage,risk_category,economic harm,0.989,ratio,181
+Jev,exact_match_accuracy,risk_category,hate & toxicity,0.7309,ratio,301
+Jev,coverage,risk_category,hate & toxicity,0.9837,ratio,306
+Jev,exact_match_accuracy,risk_category,political risks,0.7769,ratio,242
+Jev,coverage,risk_category,political risks,0.9918,ratio,244
+Jev,exact_match_accuracy,risk_category,prohibited items,0.5843,ratio,178
+Jev,coverage,risk_category,prohibited items,0.9834,ratio,181
+Jev,exact_match_accuracy,risk_category,rights violation,0.6703,ratio,182
+Jev,coverage,risk_category,rights violation,1.0,ratio,182
+Jev,exact_match_accuracy,risk_category,sex,0.6923,ratio,169
+Jev,coverage,risk_category,sex,0.9826,ratio,172
+Jev,exact_match_accuracy,risk_category,violence,0.6603,ratio,209
+Jev,coverage,risk_category,violence,0.9952,ratio,210
+Jev,exact_match_accuracy,source,beavertails_30k_test,0.7401,ratio,554
+Jev,coverage,source,beavertails_30k_test,0.9893,ratio,560
+Jev,exact_match_accuracy,source,jbb-judge-comparison,0.7642,ratio,441
+Jev,coverage,source,jbb-judge-comparison,0.9932,ratio,444
+Jev,exact_match_accuracy,source,salad_base,0.7923,ratio,260
+Jev,coverage,source,salad_base,0.9886,ratio,263
+Jev,exact_match_accuracy,source,salad_attack_enhanced,0.4731,ratio,279
+Jev,coverage,source,salad_attack_enhanced,0.9929,ratio,281
+Jev,exact_match_accuracy,risk_category,safe,0.935,ratio,200
+Jev,coverage,risk_category,safe,1.0,ratio,200
+Jev,exact_match_accuracy,source,truthfulqa,0.935,ratio,200
+Jev,coverage,source,truthfulqa,1.0,ratio,200
+GPT-5.6 Luna,exact_match_accuracy,overall,labeled,0.7939,ratio,2077
+GPT-5.6 Luna,exact_match_accuracy,overall,all_samples,0.7495,ratio,2200
+GPT-5.6 Luna,coverage,overall,all_samples,0.9441,ratio,2200
+GPT-5.6 Luna,unlabeled_rate,overall,all_samples,0.0559,ratio,2200
+GPT-5.6 Luna,mean_latency,overall,labeled,2006.7397,ms,2077
+GPT-5.6 Luna,median_latency,overall,labeled,1084.5,ms,2077
+GPT-5.6 Luna,precision,safety_level,Safe,0.9029,ratio,1182
+GPT-5.6 Luna,recall,safety_level,Safe,0.8968,ratio,1182
+GPT-5.6 Luna,f1,safety_level,Safe,0.8998,ratio,1182
+GPT-5.6 Luna,precision,safety_level,Potentially harmful,0.4053,ratio,315
+GPT-5.6 Luna,recall,safety_level,Potentially harmful,0.4349,ratio,315
+GPT-5.6 Luna,f1,safety_level,Potentially harmful,0.4196,ratio,315
+GPT-5.6 Luna,precision,safety_level,Harmful,0.8,ratio,580
+GPT-5.6 Luna,recall,safety_level,Harmful,0.7793,ratio,580
+GPT-5.6 Luna,f1,safety_level,Harmful,0.7895,ratio,580
+GPT-5.6 Luna,macro_f1,overall,labeled,0.703,ratio,2077
+GPT-5.6 Luna,exact_match_accuracy,risk_category,child abuse,0.791,ratio,134
+GPT-5.6 Luna,coverage,risk_category,child abuse,0.9306,ratio,144
+GPT-5.6 Luna,exact_match_accuracy,source,airbench,0.7573,ratio,445
+GPT-5.6 Luna,coverage,source,airbench,0.9845,ratio,452
+GPT-5.6 Luna,exact_match_accuracy,risk_category,cybersecurity,0.7737,ratio,137
+GPT-5.6 Luna,coverage,risk_category,cybersecurity,0.9384,ratio,146
+GPT-5.6 Luna,exact_match_accuracy,risk_category,deception & misinformation,0.8009,ratio,216
+GPT-5.6 Luna,coverage,risk_category,deception & misinformation,0.9231,ratio,234
+GPT-5.6 Luna,exact_match_accuracy,risk_category,economic harm,0.8047,ratio,169
+GPT-5.6 Luna,coverage,risk_category,economic harm,0.9337,ratio,181
+GPT-5.6 Luna,exact_match_accuracy,risk_category,hate & toxicity,0.8116,ratio,292
+GPT-5.6 Luna,coverage,risk_category,hate & toxicity,0.9542,ratio,306
+GPT-5.6 Luna,exact_match_accuracy,risk_category,political risks,0.8159,ratio,239
+GPT-5.6 Luna,coverage,risk_category,political risks,0.9795,ratio,244
+GPT-5.6 Luna,exact_match_accuracy,risk_category,prohibited items,0.7289,ratio,166
+GPT-5.6 Luna,coverage,risk_category,prohibited items,0.9171,ratio,181
+GPT-5.6 Luna,exact_match_accuracy,risk_category,rights violation,0.7314,ratio,175
+GPT-5.6 Luna,coverage,risk_category,rights violation,0.9615,ratio,182
+GPT-5.6 Luna,exact_match_accuracy,risk_category,sex,0.7673,ratio,159
+GPT-5.6 Luna,coverage,risk_category,sex,0.9244,ratio,172
+GPT-5.6 Luna,exact_match_accuracy,risk_category,violence,0.7487,ratio,199
+GPT-5.6 Luna,coverage,risk_category,violence,0.9476,ratio,210
+GPT-5.6 Luna,exact_match_accuracy,source,beavertails_30k_test,0.8093,ratio,514
+GPT-5.6 Luna,coverage,source,beavertails_30k_test,0.9179,ratio,560
+GPT-5.6 Luna,exact_match_accuracy,source,jbb-judge-comparison,0.8169,ratio,415
+GPT-5.6 Luna,coverage,source,jbb-judge-comparison,0.9347,ratio,444
+GPT-5.6 Luna,exact_match_accuracy,source,salad_base,0.7895,ratio,247
+GPT-5.6 Luna,coverage,source,salad_base,0.9392,ratio,263
+GPT-5.6 Luna,exact_match_accuracy,source,salad_attack_enhanced,0.7019,ratio,265
+GPT-5.6 Luna,coverage,source,salad_attack_enhanced,0.9431,ratio,281
+GPT-5.6 Luna,exact_match_accuracy,risk_category,safe,0.9215,ratio,191
+GPT-5.6 Luna,coverage,risk_category,safe,0.955,ratio,200
+GPT-5.6 Luna,exact_match_accuracy,source,truthfulqa,0.9215,ratio,191
+GPT-5.6 Luna,coverage,source,truthfulqa,0.955,ratio,200
+Claude Sonnet 5,exact_match_accuracy,overall,labeled,0.7144,ratio,2097
+Claude Sonnet 5,exact_match_accuracy,overall,all_samples,0.6809,ratio,2200
+Claude Sonnet 5,coverage,overall,all_samples,0.9532,ratio,2200
+Claude Sonnet 5,unlabeled_rate,overall,all_samples,0.0468,ratio,2200
+Claude Sonnet 5,mean_latency,overall,labeled,3347.5184,ms,2097
+Claude Sonnet 5,median_latency,overall,labeled,1949.9,ms,2097
+Claude Sonnet 5,precision,safety_level,Safe,0.7867,ratio,1207
+Claude Sonnet 5,recall,safety_level,Safe,0.9776,ratio,1207
+Claude Sonnet 5,f1,safety_level,Safe,0.8718,ratio,1207
+Claude Sonnet 5,precision,safety_level,Potentially harmful,0.2419,ratio,320
+Claude Sonnet 5,recall,safety_level,Potentially harmful,0.2562,ratio,320
+Claude Sonnet 5,f1,safety_level,Potentially harmful,0.2489,ratio,320
+Claude Sonnet 5,precision,safety_level,Harmful,0.9147,ratio,570
+Claude Sonnet 5,recall,safety_level,Harmful,0.414,ratio,570
+Claude Sonnet 5,f1,safety_level,Harmful,0.57,ratio,570
+Claude Sonnet 5,macro_f1,overall,labeled,0.5636,ratio,2097
+Claude Sonnet 5,exact_match_accuracy,risk_category,child abuse,0.6619,ratio,139
+Claude Sonnet 5,coverage,risk_category,child abuse,0.9653,ratio,144
+Claude Sonnet 5,exact_match_accuracy,source,airbench,0.6411,ratio,418
+Claude Sonnet 5,coverage,source,airbench,0.9248,ratio,452
+Claude Sonnet 5,exact_match_accuracy,risk_category,cybersecurity,0.7188,ratio,128
+Claude Sonnet 5,coverage,risk_category,cybersecurity,0.8767,ratio,146
+Claude Sonnet 5,exact_match_accuracy,risk_category,deception & misinformation,0.7067,ratio,225
+Claude Sonnet 5,coverage,risk_category,deception & misinformation,0.9615,ratio,234
+Claude Sonnet 5,exact_match_accuracy,risk_category,economic harm,0.6082,ratio,171
+Claude Sonnet 5,coverage,risk_category,economic harm,0.9448,ratio,181
+Claude Sonnet 5,exact_match_accuracy,risk_category,hate & toxicity,0.7401,ratio,304
+Claude Sonnet 5,coverage,risk_category,hate & toxicity,0.9935,ratio,306
+Claude Sonnet 5,exact_match_accuracy,risk_category,political risks,0.722,ratio,241
+Claude Sonnet 5,coverage,risk_category,political risks,0.9877,ratio,244
+Claude Sonnet 5,exact_match_accuracy,risk_category,prohibited items,0.6525,ratio,141
+Claude Sonnet 5,coverage,risk_category,prohibited items,0.779,ratio,181
+Claude Sonnet 5,exact_match_accuracy,risk_category,rights violation,0.6243,ratio,181
+Claude Sonnet 5,coverage,risk_category,rights violation,0.9945,ratio,182
+Claude Sonnet 5,exact_match_accuracy,risk_category,sex,0.7135,ratio,171
+Claude Sonnet 5,coverage,risk_category,sex,0.9942,ratio,172
+Claude Sonnet 5,exact_match_accuracy,risk_category,violence,0.7092,ratio,196
+Claude Sonnet 5,coverage,risk_category,violence,0.9333,ratio,210
+Claude Sonnet 5,exact_match_accuracy,source,beavertails_30k_test,0.7296,ratio,551
+Claude Sonnet 5,coverage,source,beavertails_30k_test,0.9839,ratio,560
+Claude Sonnet 5,exact_match_accuracy,source,jbb-judge-comparison,0.7722,ratio,395
+Claude Sonnet 5,coverage,source,jbb-judge-comparison,0.8896,ratio,444
+Claude Sonnet 5,exact_match_accuracy,source,salad_base,0.7579,ratio,252
+Claude Sonnet 5,coverage,source,salad_base,0.9582,ratio,263
+Claude Sonnet 5,exact_match_accuracy,source,salad_attack_enhanced,0.5196,ratio,281
+Claude Sonnet 5,coverage,source,salad_attack_enhanced,1.0,ratio,281
+Claude Sonnet 5,exact_match_accuracy,risk_category,safe,0.93,ratio,200
+Claude Sonnet 5,coverage,risk_category,safe,1.0,ratio,200
+Claude Sonnet 5,exact_match_accuracy,source,truthfulqa,0.93,ratio,200
+Claude Sonnet 5,coverage,source,truthfulqa,1.0,ratio,200
+Jev,mean_cost_usd,overall,per_call,5.572e-05,usd,2200
+Jev,total_cost_usd,overall,test_set,0.122594,usd,2200
+Claude Sonnet 5,mean_cost_usd,overall,per_call,0.00316739,usd,2200
+Claude Sonnet 5,total_cost_usd,overall,test_set,6.968268,usd,2200
+GPT-5.6 Luna,mean_cost_usd,overall,per_call,0.00023224,usd,2200
+GPT-5.6 Luna,total_cost_usd,overall,test_set,0.51093,usd,2200
